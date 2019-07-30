@@ -17,4 +17,11 @@ public class API {
   public String info() {
     return "Hello Azure!";
   }
+
+  @GET
+  @Path("/j4k")
+  @Produces(TEXT_PLAIN)
+  public String info() {
+    return "Hello J4k!";
+  }
 }
